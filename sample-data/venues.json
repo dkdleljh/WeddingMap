@@ -1,0 +1,656 @@
+[
+  {
+    "region": {
+      "sido": "서울",
+      "sigungu": "중구",
+      "region_code": "11-140"
+    },
+    "name": "라비에벨 서울 컨벤션",
+    "slug": "laviebelle-seoul-convention",
+    "address": "서울 중구 세종대로 110",
+    "road_address": "서울 중구 세종대로 110",
+    "latitude": 37.5665,
+    "longitude": 126.978,
+    "phone": "02-111-2222",
+    "homepage_url": "https://example.com/laviebelle",
+    "description": "도심 접근성이 좋은 대형 컨벤션 예식장입니다.",
+    "hall_type": "컨벤션",
+    "mood_tags": [
+      "모던",
+      "화려함",
+      "호텔감성"
+    ],
+    "warranty_guest_min": 200,
+    "warranty_guest_max": 500,
+    "meal_price_min": 72000,
+    "meal_price_max": 95000,
+    "rental_fee_min": 7000000,
+    "rental_fee_max": 12000000,
+    "is_public_hall": false,
+    "is_single_hall": false,
+    "is_simultaneous_ceremony": true,
+    "can_outdoor": false,
+    "trust_grade": "A",
+    "review_rating": 4.6,
+    "review_count": 124,
+    "overall_score": 88.2,
+    "source_type": "public+operator",
+    "halls": [
+      {
+        "name": "그랜드홀",
+        "floor": "5층",
+        "hall_type": "컨벤션",
+        "capacity_min": 250,
+        "capacity_max": 500,
+        "description": "대형 스크린과 높은 층고를 갖춘 메인홀"
+      }
+    ],
+    "pricings": [
+      {
+        "item_name": "대관료",
+        "price_min": 7000000,
+        "price_max": 12000000,
+        "notes": "시즌별 변동"
+      }
+    ],
+    "meals": [
+      {
+        "meal_type": "뷔페",
+        "price_per_person": 85000,
+        "is_buffet": true,
+        "has_noodle_station": true,
+        "notes": "한식과 양식 혼합"
+      }
+    ],
+    "parking": [
+      {
+        "parking_slots": 500,
+        "free_minutes": 120,
+        "valet_available": true,
+        "notes": "건물 지하 주차장"
+      }
+    ],
+    "access": [
+      {
+        "subway_line": "2호선 시청역",
+        "subway_minutes": 3,
+        "bus_stop_name": "시청광장",
+        "bus_minutes": 2,
+        "shuttle_available": false
+      }
+    ],
+    "policies": [
+      {
+        "policy_type": "계약",
+        "content": "예식일 기준 90일 전까지 일부 환불 가능",
+        "flexibility_score": 75
+      }
+    ],
+    "photos": [
+      {
+        "image_url": "https://images.unsplash.com/photo-1519741497674-611481863552",
+        "category": "hall"
+      }
+    ],
+    "reviews": [
+      {
+        "review_type": "visit",
+        "title": "교통이 정말 편했습니다",
+        "content": "지하철 접근성이 좋아 부모님도 만족했습니다.",
+        "rating_overall": 4.7,
+        "rating_food": 4.4,
+        "rating_access": 5.0,
+        "rating_parking": 4.3,
+        "rating_mood": 4.8,
+        "rating_contract": 4.5,
+        "is_verified": true,
+        "status": "approved"
+      }
+    ]
+  },
+  {
+    "region": {
+      "sido": "경기",
+      "sigungu": "성남시 분당구",
+      "region_code": "41-135"
+    },
+    "name": "분당 가든하우스 웨딩",
+    "slug": "bundang-gardenhouse-wedding",
+    "address": "경기 성남시 분당구 정자일로 45",
+    "road_address": "경기 성남시 분당구 정자일로 45",
+    "latitude": 37.3603,
+    "longitude": 127.1058,
+    "phone": "031-222-3333",
+    "homepage_url": "https://example.com/gardenhouse",
+    "description": "야외 가든 연출이 가능한 하우스 웨딩 공간입니다.",
+    "hall_type": "하우스",
+    "mood_tags": [
+      "야외",
+      "자연광",
+      "로맨틱"
+    ],
+    "warranty_guest_min": 100,
+    "warranty_guest_max": 220,
+    "meal_price_min": 59000,
+    "meal_price_max": 78000,
+    "rental_fee_min": 5500000,
+    "rental_fee_max": 8000000,
+    "is_public_hall": false,
+    "is_single_hall": true,
+    "is_simultaneous_ceremony": false,
+    "can_outdoor": true,
+    "trust_grade": "A",
+    "review_rating": 4.5,
+    "review_count": 87,
+    "overall_score": 85.7,
+    "source_type": "operator",
+    "halls": [
+      {
+        "name": "가든홀",
+        "floor": "1층",
+        "hall_type": "하우스",
+        "capacity_min": 120,
+        "capacity_max": 220,
+        "description": "통창과 정원 연결 동선이 강점"
+      }
+    ],
+    "pricings": [
+      {
+        "item_name": "대관료",
+        "price_min": 5500000,
+        "price_max": 8000000,
+        "notes": "야외 연출 포함"
+      }
+    ],
+    "meals": [
+      {
+        "meal_type": "코스",
+        "price_per_person": 72000,
+        "is_buffet": false,
+        "has_noodle_station": false,
+        "notes": "양식 코스"
+      }
+    ],
+    "parking": [
+      {
+        "parking_slots": 240,
+        "free_minutes": 180,
+        "valet_available": false,
+        "notes": "지상 주차장"
+      }
+    ],
+    "access": [
+      {
+        "subway_line": "신분당선 정자역",
+        "subway_minutes": 8,
+        "bus_stop_name": "정자 카페거리",
+        "bus_minutes": 4,
+        "shuttle_available": true
+      }
+    ],
+    "policies": [
+      {
+        "policy_type": "우천",
+        "content": "우천 시 실내 대체 진행 가능",
+        "flexibility_score": 82
+      }
+    ],
+    "photos": [
+      {
+        "image_url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed",
+        "category": "outdoor"
+      }
+    ],
+    "reviews": [
+      {
+        "review_type": "contract",
+        "title": "야외 분위기가 뛰어났습니다",
+        "content": "가든 연출이 예뻐 사진이 잘 나옵니다.",
+        "rating_overall": 4.6,
+        "rating_food": 4.4,
+        "rating_access": 4.2,
+        "rating_parking": 4.1,
+        "rating_mood": 4.9,
+        "rating_contract": 4.5,
+        "is_verified": true,
+        "status": "approved"
+      }
+    ]
+  },
+  {
+    "region": {
+      "sido": "부산",
+      "sigungu": "해운대구",
+      "region_code": "26-350"
+    },
+    "name": "해운대 마리나 웨딩홀",
+    "slug": "haeundae-marina-weddinghall",
+    "address": "부산 해운대구 해운대해변로 220",
+    "road_address": "부산 해운대구 해운대해변로 220",
+    "latitude": 35.1587,
+    "longitude": 129.1604,
+    "phone": "051-444-5555",
+    "homepage_url": "https://example.com/marina",
+    "description": "오션뷰를 강점으로 한 지역 대표 예식장입니다.",
+    "hall_type": "호텔",
+    "mood_tags": [
+      "오션뷰",
+      "고급",
+      "세련됨"
+    ],
+    "warranty_guest_min": 180,
+    "warranty_guest_max": 350,
+    "meal_price_min": 68000,
+    "meal_price_max": 88000,
+    "rental_fee_min": 6200000,
+    "rental_fee_max": 9500000,
+    "is_public_hall": false,
+    "is_single_hall": false,
+    "is_simultaneous_ceremony": true,
+    "can_outdoor": false,
+    "trust_grade": "B",
+    "review_rating": 4.4,
+    "review_count": 56,
+    "overall_score": 82.8,
+    "source_type": "public+operator",
+    "halls": [
+      {
+        "name": "오션홀",
+        "floor": "7층",
+        "hall_type": "호텔",
+        "capacity_min": 200,
+        "capacity_max": 350,
+        "description": "바다 조망 메인홀"
+      }
+    ],
+    "pricings": [
+      {
+        "item_name": "대관료",
+        "price_min": 6200000,
+        "price_max": 9500000,
+        "notes": "성수기 가산"
+      }
+    ],
+    "meals": [
+      {
+        "meal_type": "뷔페",
+        "price_per_person": 76000,
+        "is_buffet": true,
+        "has_noodle_station": true,
+        "notes": "해산물 메뉴 강점"
+      }
+    ],
+    "parking": [
+      {
+        "parking_slots": 320,
+        "free_minutes": 150,
+        "valet_available": false,
+        "notes": "호텔 공용 주차"
+      }
+    ],
+    "access": [
+      {
+        "subway_line": "2호선 동백역",
+        "subway_minutes": 9,
+        "bus_stop_name": "마리나센터",
+        "bus_minutes": 2,
+        "shuttle_available": false
+      }
+    ],
+    "policies": [
+      {
+        "policy_type": "계약",
+        "content": "보증 인원 조정 가능 폭이 비교적 넓음",
+        "flexibility_score": 72
+      }
+    ],
+    "photos": [
+      {
+        "image_url": "https://images.unsplash.com/photo-1469371670807-013ccf25f16a",
+        "category": "hall"
+      }
+    ],
+    "reviews": [
+      {
+        "review_type": "event",
+        "title": "음식 만족도가 높았습니다",
+        "content": "하객 평이 좋고 사진도 잘 나왔습니다.",
+        "rating_overall": 4.5,
+        "rating_food": 4.8,
+        "rating_access": 4.0,
+        "rating_parking": 4.1,
+        "rating_mood": 4.7,
+        "rating_contract": 4.2,
+        "is_verified": false,
+        "status": "approved"
+      }
+    ]
+  },
+  {
+    "region": {
+      "sido": "대구",
+      "sigungu": "수성구",
+      "region_code": "27-260"
+    },
+    "name": "수성 레이크 웨딩센터",
+    "slug": "suseong-lake-wedding-center",
+    "address": "대구 수성구 동대구로 180",
+    "road_address": "대구 수성구 동대구로 180",
+    "latitude": 35.8587,
+    "longitude": 128.6306,
+    "phone": "053-555-6666",
+    "homepage_url": "https://example.com/suseong",
+    "description": "가성비와 넓은 주차장을 강점으로 한 웨딩센터입니다.",
+    "hall_type": "컨벤션",
+    "mood_tags": [
+      "가성비",
+      "안정감",
+      "클래식"
+    ],
+    "warranty_guest_min": 150,
+    "warranty_guest_max": 300,
+    "meal_price_min": 52000,
+    "meal_price_max": 68000,
+    "rental_fee_min": 4200000,
+    "rental_fee_max": 6500000,
+    "is_public_hall": false,
+    "is_single_hall": false,
+    "is_simultaneous_ceremony": true,
+    "can_outdoor": false,
+    "trust_grade": "B",
+    "review_rating": 4.2,
+    "review_count": 44,
+    "overall_score": 80.1,
+    "source_type": "operator",
+    "halls": [
+      {
+        "name": "레이크홀",
+        "floor": "3층",
+        "hall_type": "컨벤션",
+        "capacity_min": 180,
+        "capacity_max": 300,
+        "description": "기본기가 탄탄한 중대형 홀"
+      }
+    ],
+    "pricings": [
+      {
+        "item_name": "대관료",
+        "price_min": 4200000,
+        "price_max": 6500000,
+        "notes": "비수기 할인"
+      }
+    ],
+    "meals": [
+      {
+        "meal_type": "뷔페",
+        "price_per_person": 59000,
+        "is_buffet": true,
+        "has_noodle_station": true,
+        "notes": "지역식 메뉴 포함"
+      }
+    ],
+    "parking": [
+      {
+        "parking_slots": 600,
+        "free_minutes": 180,
+        "valet_available": false,
+        "notes": "단독 주차장"
+      }
+    ],
+    "access": [
+      {
+        "subway_line": "2호선 범어역",
+        "subway_minutes": 7,
+        "bus_stop_name": "수성레이크",
+        "bus_minutes": 1,
+        "shuttle_available": false
+      }
+    ],
+    "policies": [
+      {
+        "policy_type": "보증 인원",
+        "content": "최소 보증 인원 조정 가능",
+        "flexibility_score": 79
+      }
+    ],
+    "photos": [
+      {
+        "image_url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486",
+        "category": "hall"
+      }
+    ],
+    "reviews": [
+      {
+        "review_type": "visit",
+        "title": "주차가 편리합니다",
+        "content": "하객이 많은 예식에도 주차 스트레스가 적었습니다.",
+        "rating_overall": 4.2,
+        "rating_food": 4.0,
+        "rating_access": 4.1,
+        "rating_parking": 4.9,
+        "rating_mood": 4.0,
+        "rating_contract": 4.1,
+        "is_verified": false,
+        "status": "approved"
+      }
+    ]
+  },
+  {
+    "region": {
+      "sido": "광주",
+      "sigungu": "동구",
+      "region_code": "29-110"
+    },
+    "name": "광주 공공예식 문화원",
+    "slug": "gwangju-public-wedding-center",
+    "address": "광주 동구 예술길 18",
+    "road_address": "광주 동구 예술길 18",
+    "latitude": 35.1461,
+    "longitude": 126.9231,
+    "phone": "062-777-8888",
+    "homepage_url": "https://example.com/gwangju-public",
+    "description": "지역 공공시설을 활용한 공공예식장입니다.",
+    "hall_type": "공공",
+    "mood_tags": [
+      "공공",
+      "가성비",
+      "단정함"
+    ],
+    "warranty_guest_min": 80,
+    "warranty_guest_max": 180,
+    "meal_price_min": 38000,
+    "meal_price_max": 52000,
+    "rental_fee_min": 1200000,
+    "rental_fee_max": 2500000,
+    "is_public_hall": true,
+    "is_single_hall": true,
+    "is_simultaneous_ceremony": false,
+    "can_outdoor": false,
+    "trust_grade": "A",
+    "review_rating": 4.3,
+    "review_count": 31,
+    "overall_score": 84.1,
+    "source_type": "public",
+    "halls": [
+      {
+        "name": "문화홀",
+        "floor": "2층",
+        "hall_type": "공공",
+        "capacity_min": 80,
+        "capacity_max": 180,
+        "description": "합리적 예산의 공공홀"
+      }
+    ],
+    "pricings": [
+      {
+        "item_name": "대관료",
+        "price_min": 1200000,
+        "price_max": 2500000,
+        "notes": "지역민 우대"
+      }
+    ],
+    "meals": [
+      {
+        "meal_type": "뷔페",
+        "price_per_person": 45000,
+        "is_buffet": true,
+        "has_noodle_station": false,
+        "notes": "위탁 케이터링"
+      }
+    ],
+    "parking": [
+      {
+        "parking_slots": 180,
+        "free_minutes": 240,
+        "valet_available": false,
+        "notes": "공공시설 주차장"
+      }
+    ],
+    "access": [
+      {
+        "subway_line": "1호선 금남로4가역",
+        "subway_minutes": 6,
+        "bus_stop_name": "예술의거리",
+        "bus_minutes": 2,
+        "shuttle_available": false
+      }
+    ],
+    "policies": [
+      {
+        "policy_type": "이용 기준",
+        "content": "서류 확인 후 공공예식장 예약 가능",
+        "flexibility_score": 68
+      }
+    ],
+    "photos": [
+      {
+        "image_url": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc",
+        "category": "hall"
+      }
+    ],
+    "reviews": [
+      {
+        "review_type": "contract",
+        "title": "비용 부담이 적었습니다",
+        "content": "예산이 빠듯한 예비부부에게 좋은 선택지입니다.",
+        "rating_overall": 4.4,
+        "rating_food": 4.0,
+        "rating_access": 4.2,
+        "rating_parking": 4.0,
+        "rating_mood": 4.1,
+        "rating_contract": 4.7,
+        "is_verified": true,
+        "status": "approved"
+      }
+    ]
+  },
+  {
+    "region": {
+      "sido": "대전",
+      "sigungu": "유성구",
+      "region_code": "30-170"
+    },
+    "name": "대전 시립 공공웨딩홀",
+    "slug": "daejeon-public-weddinghall",
+    "address": "대전 유성구 엑스포로 99",
+    "road_address": "대전 유성구 엑스포로 99",
+    "latitude": 36.3742,
+    "longitude": 127.3867,
+    "phone": "042-123-9876",
+    "homepage_url": "https://example.com/daejeon-public",
+    "description": "도심형 공공예식장으로 접근성과 가성비가 좋습니다.",
+    "hall_type": "공공",
+    "mood_tags": [
+      "실속형",
+      "공공",
+      "단독홀"
+    ],
+    "warranty_guest_min": 60,
+    "warranty_guest_max": 160,
+    "meal_price_min": 36000,
+    "meal_price_max": 49000,
+    "rental_fee_min": 1000000,
+    "rental_fee_max": 2200000,
+    "is_public_hall": true,
+    "is_single_hall": true,
+    "is_simultaneous_ceremony": false,
+    "can_outdoor": true,
+    "trust_grade": "A",
+    "review_rating": 4.1,
+    "review_count": 18,
+    "overall_score": 81.6,
+    "source_type": "public",
+    "halls": [
+      {
+        "name": "시민홀",
+        "floor": "1층",
+        "hall_type": "공공",
+        "capacity_min": 60,
+        "capacity_max": 160,
+        "description": "단독 진행에 적합"
+      }
+    ],
+    "pricings": [
+      {
+        "item_name": "대관료",
+        "price_min": 1000000,
+        "price_max": 2200000,
+        "notes": "평일 할인 가능"
+      }
+    ],
+    "meals": [
+      {
+        "meal_type": "뷔페",
+        "price_per_person": 42000,
+        "is_buffet": true,
+        "has_noodle_station": false,
+        "notes": "기본 케이터링"
+      }
+    ],
+    "parking": [
+      {
+        "parking_slots": 220,
+        "free_minutes": 240,
+        "valet_available": false,
+        "notes": "공공주차장 연계"
+      }
+    ],
+    "access": [
+      {
+        "subway_line": "1호선 정부청사역",
+        "subway_minutes": 10,
+        "bus_stop_name": "엑스포과학공원",
+        "bus_minutes": 3,
+        "shuttle_available": false
+      }
+    ],
+    "policies": [
+      {
+        "policy_type": "야외 연출",
+        "content": "소규모 야외 촬영 가능",
+        "flexibility_score": 73
+      }
+    ],
+    "photos": [
+      {
+        "image_url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8",
+        "category": "outdoor"
+      }
+    ],
+    "reviews": [
+      {
+        "review_type": "guest",
+        "title": "규모는 작지만 만족스러웠습니다",
+        "content": "실속 있는 예식에 적합합니다.",
+        "rating_overall": 4.0,
+        "rating_food": 3.9,
+        "rating_access": 4.1,
+        "rating_parking": 4.0,
+        "rating_mood": 4.0,
+        "rating_contract": 4.2,
+        "is_verified": false,
+        "status": "approved"
+      }
+    ]
+  }
+]

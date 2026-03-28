@@ -1,0 +1,15 @@
+node_modules
+.next
+dist
+build
+coverage
+.venv
+__pycache__
+.pytest_cache
+.env
+.env.local
+*.pyc
+.DS_Store
+pnpm-lock.yaml
+npm-debug.log*
+apps/weddingmap-local.db

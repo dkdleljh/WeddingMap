@@ -1,0 +1,61 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: weddingmap-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-weddingmap}
+      POSTGRES_USER: ${POSTGRES_USER:-weddingmap}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weddingmap}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./infra/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+  redis:
+    image: redis:7
+    container_name: weddingmap-redis
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+
+  api:
+    build:
+      context: ./apps/api
+    container_name: weddingmap-api
+    env_file:
+      - ./apps/api/.env.example
+    environment:
+      APP_DATABASE_URL: postgresql+psycopg://weddingmap:weddingmap@postgres:5432/weddingmap
+      APP_REDIS_URL: redis://redis:6379/0
+    ports:
+      - "${API_PORT:-8000}:8000"
+    depends_on:
+      - postgres
+      - redis
+
+  web:
+    build:
+      context: ./apps/web
+    container_name: weddingmap-web
+    env_file:
+      - ./apps/web/.env.example
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    depends_on:
+      - api
+
+  admin:
+    build:
+      context: ./apps/admin
+    container_name: weddingmap-admin
+    env_file:
+      - ./apps/admin/.env.example
+    ports:
+      - "${ADMIN_PORT:-3001}:3000"
+    depends_on:
+      - api
+
+volumes:
+  postgres-data:

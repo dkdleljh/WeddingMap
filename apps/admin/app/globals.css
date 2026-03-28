@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-stone-50 text-ink;
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+}
+
+a {
+  @apply text-inherit no-underline;
+}
