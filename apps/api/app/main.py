@@ -10,7 +10,7 @@ configure_logging()
 app = FastAPI(
     title=settings.app_name,
     description="전국 예식장 탐색과 비교 분석을 위한 WeddingMap API",
-    version="0.1.0",
+    version="0.1.2",
 )
 
 app.add_middleware(

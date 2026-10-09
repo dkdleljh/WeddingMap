@@ -246,3 +246,11 @@ python services/ingestion/run_ingestion.py --mode portal --url "$DATA_PORTAL_API
 - 공공데이터포털 인증키, JWT 비밀키, 지도 키는 운영용 값으로 교체해야 합니다.
 - 샘플 데이터는 개발과 화면 검증 목적이며 실제 영업 정보와 다를 수 있습니다.
 - 사용자 폴더에 깨진 상위 `node_modules`가 있는 환경에서도 동작하도록 루트 스크립트를 보강했습니다.
+
+<!-- BEGIN RELEASE STATUS -->
+## 최신 배포 정보
+
+- 저장소 버전: `v0.1.2`
+- [변경사항과 검증 범위](RELEASE_NOTES.md)
+- [GitHub 릴리즈](https://github.com/dkdleljh/WeddingMap/releases/latest)
+<!-- END RELEASE STATUS -->

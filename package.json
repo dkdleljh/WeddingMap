@@ -1,13 +1,13 @@
 {
   "name": "weddingmap",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.2",
   "workspaces": [
     "apps/web",
     "apps/admin"
   ],
   "scripts": {
-    "dev:api": "cd apps/api && if [ -d .venv ]; then . .venv/bin/activate; fi && PYTHONPATH=/mnt/c/Users/Administrator/Desktop/WeddingMap/apps/api python3 -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "dev:api": "cd apps/api && if [ -d .venv ]; then . .venv/bin/activate; fi && PYTHONPATH=. python3 -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload",
     "dev:web": "NODE_BIN=$(./scripts/find_node.sh) && cd apps/web && \"$NODE_BIN\" ../../node_modules/next/dist/bin/next dev -p 3000",
     "dev:admin": "NODE_BIN=$(./scripts/find_node.sh) && cd apps/admin && \"$NODE_BIN\" ../../node_modules/next/dist/bin/next dev -p 3001",
     "build:web": "NODE_BIN=$(./scripts/find_node.sh) && cd apps/web && \"$NODE_BIN\" ../../node_modules/next/dist/bin/next build",
